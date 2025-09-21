@@ -14,7 +14,7 @@ func getNewDog() *Dog {
 	return &Dog{}
 }
 
-func (d *Dog) speak() string {
+func (dog *Dog) speak() string {
 	return "Woof!"
 }
 
@@ -26,7 +26,7 @@ func getNewCat() *Cat {
 	return &Cat{}
 }
 
-func (c *Cat) speak() string {
+func (cat *Cat) speak() string {
 	return "Meow!"
 }
 
@@ -38,7 +38,7 @@ func getNewLion() *Lion {
 	return &Lion{}
 }
 
-func (l *Lion) speak() string {
+func (lion *Lion) speak() string {
 	return "Arrr!"
 }
 
